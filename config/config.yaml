@@ -1,0 +1,13 @@
+# Define artifacts root directory
+artifacts_root: artifacts
+
+# Define data ingestion parameters
+data_ingestion:
+  # Define root directory for data ingestion
+  root_dir: artifacts/data_ingestion
+  # Define source URL for the data
+  source_URL: https://drive.google.com/file/d/1z0mreUtRmR-P-magILsDR3T7M6IkGXtY/view?usp=sharing
+  # Define local path for the downloaded data file
+  local_data_file: artifacts/data_ingestion/data.zip
+  # Define directory for unzipping the data
+  unzip_dir: artifacts/data_ingestion
