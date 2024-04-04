@@ -11,3 +11,10 @@
 7) Update the pipeline
 8) Update the main.py
 9) Update the dvc.yaml
+
+
+
+MLFLOW_TRACKING_URI=https://dagshub.com/shon-Rocky/Chest_Cancer_Classification_Using_MLflow.mlflow \
+MLFLOW_TRACKING_USERNAME=shon-Rocky \
+MLFLOW_TRACKING_PASSWORD=d21ca6adcdebf11d8e20069be4204e8bfb44ca7b \
+python script.py
